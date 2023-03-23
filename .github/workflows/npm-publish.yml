@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -30,4 +30,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
