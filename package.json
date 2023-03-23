@@ -1,6 +1,6 @@
 {
   "name": "cs-axios-plus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "`npm i CH-axios`",
   "type": "module",
   "bin": {
