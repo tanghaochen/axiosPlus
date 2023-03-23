@@ -1,0 +1,30 @@
+{
+  "name": "cs-axios-plus",
+  "version": "1.0.1",
+  "description": "`npm i CH-axios`",
+  "type": "module",
+  "bin": {
+    "axiosPlus": "lib/index.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanghaochen/axiosPlus.git"
+  },
+  "keywords": [
+    "request",
+    "axios"
+  ],
+  "author": "haocheni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanghaochen/axiosPlus/issues"
+  },
+  "homepage": "https://github.com/tanghaochen/axiosPlus#readme",
+  "dependencies": {
+    "axios": "^1.3.4"
+  }
+}
