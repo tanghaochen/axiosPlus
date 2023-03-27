@@ -1,5 +1,5 @@
 ## install
-`npm i CH-axios`
+`npm i hc-axios-plus`
 
 ## what this?
 - 为什么二次封装axios
