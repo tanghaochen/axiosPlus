@@ -18,3 +18,6 @@
 
 ## example
 `const {data,loading,status} = new Axios()`
+
+---
+
