@@ -27,7 +27,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        
+              
+      - name: Setup Git
+        run: |
+          git config --global user.name "haocheni"
+          git config --global user.email "1774189597@qq.com"
+
       - name: Bump version
         run: npm version patch -m "Bump version to %s"
 
