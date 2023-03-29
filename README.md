@@ -16,8 +16,23 @@
     - TOKEN:'TOKEN'
     - all other start with IS defult value is true
 
-## example
-`const {data,loading,status} = new Axios()`
+## Example
+```ts
+let useAPI = new useAxios();
+
+let { data, loading, status } = await useAPI.get(
+"/m2/1455652-0-default/34515570",
+{
+    ID: 12345,
+}
+);
+
+console.log(data, loading, status);
+```
+
+### Result
+
+![e](./assets/example.png)
 
 ---
 
